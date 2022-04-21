@@ -1,0 +1,91 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* COMMON */
+.container {
+    width: 95%;
+    margin: auto;
+}
+
+.grey-text {
+    color: grey;
+}
+
+/* HEADER */
+header {
+    background-color: #4ea0ff;
+    background-image: url('../img/pattern.png');
+    background-size: 30%;
+}
+.logo {
+    height: 60px;
+    margin-top: 40px;
+}
+
+/* MAIN */
+h1 {
+    font-size: 55px;
+}
+.author {
+    font-weight: 800;
+    font-size: 20px;
+}
+.author-name {
+    color: #31ade6;
+}
+.images {
+    margin-top: 30px;
+}
+.article-content p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.article-content strong {
+    background-color: yellow;
+    font-weight: 300;
+}
+.article-content ul {
+    margin-left: 17px;
+}
+table {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+}
+thead {
+    background-color: #20a8e4;
+}
+th {
+    color: white;
+    text-align: left;
+}
+.wide-col {
+    width: 50%;
+}
+.odd {
+    background-color: #b2e4f2;
+}
+
+/* FOOTER */
+.related-item {
+    width: 250px;
+    height: 200px;
+    background-color: pink;
+    margin-top: 20px;
+    background-size: cover;
+}
+.related-item h4 {
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+}
+#computer {
+    background-image: url('../img/monitor.jpg');
+}
+#graph {
+    background-image: url('../img/graph.jpg');
+}
